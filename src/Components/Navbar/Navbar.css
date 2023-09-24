@@ -1,0 +1,104 @@
+.navbar{
+    height: 80px      
+}
+.wrapper{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itema{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.iteme{
+    display: flex;
+    align-items: center;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.center1{
+font-size: 30px;
+letter-spacing: 2px;
+}
+.right{
+    display: flex;
+    align-items: center; 
+    gap: 25px;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+    color: #777;
+    cursor: pointer;
+}
+ .QPO{
+    color: #777;  
+}
+.cartICon span {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2879fe;
+    color: white;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cartICon{
+    position: relative;
+}
+.searchh{
+    position: relative; 
+}
+.item-small a {
+    text-decoration: none;
+    list-style: none;
+   color: black;
+  
+
+}
+.itemew .current {
+    right: 30px;
+    border: 0;
+    border-color: #fff;
+   
+}
+ .itemew  {
+   
+
+ border: 0;
+ font-size: 18px;
+display: flex;
+ padding: 4px 0px 1px 20px;
+ border-bottom: #fff;
+
+}
+
+
+.item-small {
+    list-style: none;
+}
+
+.iteme  li:hover ul{
+    display: block;
+    transition: 1.5s;
+}
+
+ .iteme .current {
+    &:hover{
+        background-color: #2879fe;
+        color: #fff;
+       
+    }
+}

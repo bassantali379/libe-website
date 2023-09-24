@@ -1,0 +1,33 @@
+.featuredProducts{
+    margin: 100px 200px;
+}
+.to{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.qqq{
+    flex: 2;
+    font-weight: bold;
+   text-transform: capitalize;
+   color: #020202;
+   font-size: 24px;
+   
+   
+}
+.QQQ{
+    flex: 3;
+    color: gray;
+}
+.bott{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+   
+}
+ .bott img{
+   height: 400px;
+   overflow: hidden;
+   object-fit: cover;
+}

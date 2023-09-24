@@ -1,0 +1,40 @@
+ [
+    {
+        "id":1,
+        "imges":"/imges/1.jpeg",
+        "title":"Long Sleeve Graphic Blouse",
+        "oldprice":19,
+        "price":12
+    },
+    {
+        "id":2,
+        "imges":"/imges/17.jpg",
+        "title":" Cardigan",
+        "oldprice":19,
+        "price":12
+    },
+    {
+        "id":3,
+        "imges":"/imges/5.jpg",
+        "title":"Dress",
+        "oldprice":19,
+        "price":12
+    },
+    {
+        "id":4,
+        "imges":"/imges/3.jpg",
+        "title":"Skirt",
+        "oldprice":19,
+        "price":12
+    },
+    {
+        " id":5,
+        "imges":"/imges/8.jpg",
+        "title":"Soute",
+        "oldprice":19,
+        "price":12
+    }
+   
+  
+    
+]

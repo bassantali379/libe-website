@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    font-family: 'roboto', sans-serif;
+  
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   width: 280px;
+}
+
+
+.email{
+padding: 15px;
+margin: 10px 0px;
+   border-radius: 5px;
+   border: 1px solid gray;
+}
+.qpp{
+   color: #383838;
+ 
+   
+}
+
+::placeholder{
+    color: #383838;
+    font-size: 13px;
+ }
+
+ .jdd{
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #383838;
+  }
+ .jdd a{
+    color: #383838;
+  }
+  .linkkk{
+    color: #383838;
+    text-transform: capitalize;
+    text-align: center     ;
+    display: block;
+   
+  }
+  .logo{
+   height:70px; 
+   display: block;
+   margin: 0 auto 50px;
+    transform: translate(27.5%, 27.5%);
+}
+
+ .submit-btn{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #2879fe;
+    color: #FFF;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+ }
+ 
+ 
